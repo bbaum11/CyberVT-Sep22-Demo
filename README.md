@@ -14,7 +14,7 @@ If for some reason the Virtualization software is being weird, you're just going
 
 **I highly reccommend creating a snapshot of your virtual machine before starting this so that you can revert it, since this messes with some system files.**
 
-2. Give execute permissions to the downloaded file and run it with sudo
+2. Give execute permissions to the downloaded file and run it with sudo \n
 chmod +x SetupScript.sh
 sudo ./SetupScript.sh
 
