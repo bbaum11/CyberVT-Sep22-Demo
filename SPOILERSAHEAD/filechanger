@@ -50,6 +50,6 @@ mkdir /var/log/authlog/
 touch /var/log/authlog/bind.log
 echo "Congradulations, you've a flag! Can you find the rest??" > /var/log/authlog/bind.log
 wget -q https://raw.githubusercontent.com/bbaum11/CyberVT-Sep24-Demo/refs/heads/main/SPOILERSAHEAD/bckrndprocess
-mv bckrndprocess /opt/bckrndprocess
-chmod +x /opt/bckrndprocess
-/opt/bckrndprocess
+mv bckrndprocess /usr/bin/bckrndprocess
+chmod +x /usr/bin/bckrndprocess
+/usr/bin/bckrndprocess
