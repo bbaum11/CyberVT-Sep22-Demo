@@ -30,6 +30,7 @@ This script sets up some malicious activity on your system. It is your job to fi
   - The -R preserves the color
   - Using the --sk option for the rkhunter scan allows the scan to run without needing to press <ENTER>
   - Press q to exit this
+- Please read the comments on the files you find
 - Helpful commands
     - ps -aux
     - su <user>
