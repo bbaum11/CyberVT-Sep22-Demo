@@ -19,11 +19,11 @@ This is the activity for Tuesday, September 24. Please download the file from th
     - sudo ./SetupScript.sh
 
 # What to do
-This script sets up some malicious activity on your system. It is your job to find the malicious activity and the flags for each thing.
+This script sets up some malicious activity on your system. It is your job to find the malicious activity and the flags for each thing. The recommended software to use is **rkhunter**. Do some research into how to set up and use rkhunter.
 
 # Helpful hints
-- The recommended software to use is rkhunter. Do some research into how to set up and use rkhunter.
 - Although the console will show warnings, looking at the logs will provide specific information about each warning found.
+    - Look into command line text editors like nano/vim that have search functionality 
 - Using '| less -R' after running a scan allows you to scroll back through the terminal to look at the output
   - The -R preserves the color
   - Using the --sk allows the scan to run without needing to press <ENTER>
