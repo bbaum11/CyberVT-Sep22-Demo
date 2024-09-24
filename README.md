@@ -26,5 +26,5 @@ This script sets up some malicious activity on your system. It is your job to fi
     - Look into command line text editors like nano/vim that have search functionality 
 - Using '| less -R' after running a scan allows you to scroll back through the terminal to look at the output
   - The -R preserves the color
-  - Using the --sk allows the scan to run without needing to press <ENTER>
+  - Using the --sk option for the rkhunter scan allows the scan to run without needing to press <ENTER>
   - Press q to exit this
