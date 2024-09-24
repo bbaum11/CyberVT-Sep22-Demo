@@ -24,3 +24,4 @@ This script sets up some malicious activity on your system. It is your job to fi
 - Using '| less -R' after running a scan allows you to scroll back through the terminal to look at the output
   - The -R preserves the color
   - Using the --sk allows the scan to run without needing to press <ENTER>
+  - Press q to exit this
