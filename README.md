@@ -26,10 +26,11 @@ This script sets up some malicious activity on your system. It is your job to fi
 # Helpful hints
 - Although the console will show warnings, looking at the logs will provide specific information about each warning found.
     - Look into command line text editors like nano/vim that have search functionality 
-- Using '| less -R' after running a scan allows you to scroll back through the terminal to look at the output
+- Typing '| less -R' at the end of the search command allows you to scroll back in the terminal
   - The -R preserves the color
   - Using the --sk option for the rkhunter scan allows the scan to run without needing to press <ENTER>
   - Press q to exit this
+  - More details will be in the log file
 - Please read the comments on the files you find
 - Helpful commands
     - ps -aux
