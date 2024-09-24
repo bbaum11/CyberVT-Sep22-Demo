@@ -36,7 +36,6 @@ This script sets up some malicious activity on your system. It is your job to fi
     - su <user>
     - cat
     - vim/nano
-    - echo ~<user_to_find_home>
     - grep
     - ls -a
     - ls -l
