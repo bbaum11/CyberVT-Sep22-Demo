@@ -13,6 +13,8 @@ This is the activity for Tuesday, September 24. Please download the file from th
 - If for some reason the Virtualization software is being weird, you're just going to have to type out the link instead.
 
 **I highly reccommend creating a snapshot of your virtual machine before starting this so that you can revert it, since this messes with some system files.**
+- VMWare: The clock button with the plus at the top of the window
+- Virtualbox: 'Machine -> Take Snaphot'
 
 2. Give execute permissions to the downloaded file and run it with sudo
     - chmod +x SetupScript.sh
