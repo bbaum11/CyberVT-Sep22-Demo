@@ -14,9 +14,9 @@ If for some reason the Virtualization software is being weird, you're just going
 
 **I highly reccommend creating a snapshot of your virtual machine before starting this so that you can revert it, since this messes with some system files.**
 
-2. Give execute permissions to the downloaded file and run it with sudo \n
-chmod +x SetupScript.sh
-sudo ./SetupScript.sh
+2. Give execute permissions to the downloaded file and run it with sudo
+- chmod +x SetupScript.sh
+- sudo ./SetupScript.sh
 
 # What to do
 This script sets up some malicious activity on your system. It is your job to find the malicious activity and the flags for each thing.
