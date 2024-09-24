@@ -39,3 +39,4 @@ This script sets up some malicious activity on your system. It is your job to fi
     - grep
     - ls -a
     - ls -l
+- I wonder what suspicious users keep at home...
