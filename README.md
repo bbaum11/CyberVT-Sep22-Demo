@@ -23,4 +23,4 @@ This script sets up some malicious activity on your system. It is your job to fi
 - Although the console will show warnings, looking at the logs will provide specific information about each warning found.
 - Using '| less -R' after running a scan allows you to scroll back through the terminal to look at the output
   - The -R preserves the color
-  - Using the --nk allows the scan to run without needing to press <ENTER>
+  - Using the --sk allows the scan to run without needing to press <ENTER>
